@@ -1,6 +1,6 @@
  
  
-1. Simulation of a Simple Calculator. 
+//1. Simulation of a Simple Calculator. 
 
 
 #include<stdio.h>  
@@ -29,7 +29,7 @@ void main()
  getch(); 
 } 
  
-Output: 
+/*Output: 
  
  
 Enter the valid arithme c expression 
@@ -48,7 +48,7 @@ Result=2
  
 2. Compute the roots of a quadratic equation by accepting the 
 coefficients. Print appropriate messages.
-
+*/
  
 #include<stdio.h>  
 #include<math.h>  
@@ -89,7 +89,7 @@ void main( )
   getch(); 
  } 
  
-  
+/*  
 Enter the 3 coefficients: 
 1 5 2 
 Roots are real and dis nct 
@@ -111,7 +111,7 @@ charged a minimum of Rs. 100 as meter charge. If the total amount is
 more than Rs 400, then an additional surcharge of 15% of total 
 amount is charged. Write a program to read the name of the user, 
 number of units consumed and print out the charges. 
-
+*/
 
 #include <stdio.h> 
 #include<conio.h>  
@@ -133,6 +133,7 @@ charge=charge+charge*0.15;
 printf("Name:%s\ncharge:%f\n ",name,charge);  
 getch(); 
 } 
+/*
 Output: 
 Enter your name: Devansh 
 Enter No. of unit Consumed:175 
@@ -154,7 +155,7 @@ charge:1595.050049
 
 
 4. To display the following by reading the number of rows as input. 
-
+*/
 
 #include<stdio.h> 
 #include<conio.h> 
@@ -178,7 +179,7 @@ void main()
           } 
      getch(); 
 } 
- 
+ /*
 Output: 
  
 Input number of rows:5 
@@ -191,7 +192,7 @@ Input number of rows:5
 
 
 5. Implement Binary Search on Integers. 
-
+*/
 
 
 #include<stdio.h> 
@@ -230,6 +231,7 @@ else
 printf("\nThe search is unsuccessful"); 
 getch(); 
 } 
+/*
 Output: 
 Enter the size of the array 
 5 
@@ -242,7 +244,7 @@ The element 40 is found at 4
 
 
 6. Implement Matrix multiplication and validate the rules of multiplication. 
-
+*/
 
 
 #include<stdio.h> 
@@ -317,6 +319,7 @@ printf("\n");
 } 
 getch(); 
 } 
+/*
 Output:  
 Enter the order of matrix A 
 3 3 
@@ -348,6 +351,7 @@ Product of Matrix A and B is
 7. Compute sin(x)/cos(x) using Taylor series approximation. Compare your result 
 with the built-in library function. Print both the results with appropriate 
 inferences. 
+*/
 
 
 
@@ -377,7 +381,7 @@ printf("sin(%f) using taylor series=%f\n",y,sum);
 sum1=sin(x);  
 printf("Using inbuilt function sin(%f)=%f",y,sum1); 
 getch(); 
-Output: 
+/*Output: 
 Enter the angle 
 45 
 Sin (45.000000) using taylor series=0.707320 
@@ -387,7 +391,7 @@ Using inbuilt func on sin(45.000000)=0.707320
 
 
 8. Sort the given set of N numbers using Bubble sort. 
-
+*/
 
 
 #include<stdio.h> 
@@ -422,7 +426,7 @@ printf("%d\n",a[i]);
 } 
 getch(); 
 } 
-Output: 
+/*Output: 
 enter the value of n 
 6 
 Enter the numbers in unsorted order: 
@@ -440,7 +444,7 @@ The sorted array is
 
 9. Write functions to implement string operations such as compare, concatenate, 
 and find string length. Use the parameter passing techniques. 
-
+*/
 
 
 
@@ -506,7 +510,7 @@ int len;
 len=strlen(str1); 
 printf("the length of string=%d",len); 
 } 
-Output: 
+/*Output: 
 press 1-compare 2-concatenate 3-length of string 
 enter your choice= 1 
 enter first string=Seena 
@@ -528,7 +532,7 @@ Do you want to continue(1/0)? 0
 
 10. Implement structures to read, write and compute average- marks of the students, 
 list the students scoring above and below the average marks for a class of N students. 
-
+*/
 
 
 #include<stdio.h> 
@@ -569,7 +573,7 @@ else
 getch(); 
 } 
 printf(“\n %s has scored below the average marks”,s[i].name); 
-Output: 
+/*Output: 
   
 Enter the number of student=3 
 Enter the detail of 1 students 
@@ -602,7 +606,7 @@ Enter the three subject score
 
 11. Develop a program using pointers to compute the sum,mean and standard 
 deviation of all elements stored in an array of N real numbers. 
-
+*/
 
 
 #include<stdio.h>  
@@ -638,7 +642,7 @@ printf("mean(Average)=%f\n",mean);
 printf("variance=%f\n",variance); 
 printf("standard deviation=%f\n",deviation); 
 retrun 0; 
-Output: 
+/*Output: 
 Enter the value of n 
 5 
 enter 5 real values 
@@ -656,7 +660,7 @@ standard devia on=1.446375
 
 12.Write a C program to copy a text file to another, read both the input file name and 
 target file name.
-
+*/
 
  
 #include<stdio.h> 
@@ -682,9 +686,10 @@ printf("File copied\n");
 } 
 getch(); 
 } 
-Output: 
+/*Output: 
 Enter the source file 
 File1.txt 
 Enter teh destination file 
 File2.txt 
 File copied 
+*/
